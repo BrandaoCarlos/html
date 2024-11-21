@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de houver</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div:hover{
+            color: rgb(235, 8, 8);
+        }
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+           background-color: black; color: rgb(250, 247, 247);
+           width: 150px;
+           padding: 15px;
+
+        }
+        div:hover{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hpuver</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>Passe o mouse aqui
+        <p>Parágrafo excondido</p>
+    </div>
+</body>
+</html>

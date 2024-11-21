@@ -1,0 +1,70 @@
+@charset"utf-8";
+body{
+    background-color: rgb(7, 2, 6);
+    margin-left: 400px;
+}
+h1{
+    background-color: blue;
+    color: blanchedalmond;
+    box-shadow: 2px 2px 2px 3px black;
+    width: 250px;
+    margin-left: 150px;
+    text-align: center;
+}
+h2{
+    background-color: rgb(7, 144, 236);
+    color: aliceblue;
+    box-shadow: 1px 4px 2px 3px black;
+    width: 250px;
+    margin-left: 150px;
+    text-align: center;
+}
+h2#novo{
+    width: 900px;
+    text-align: center;
+    padding: 20px;
+    margin-left: -230px;
+    font-size: 50pt;
+    box-shadow: 2px 2px 2px 3px rgb(245, 243, 243);
+    text-shadow: 2px 5px 3px black;
+}
+h2#novo p{
+    width: 770px;
+    background-color: darkgoldenrod;
+    text-align: center;
+    margin-top: -10px;
+    border-radius: 35px;
+    text-shadow: none;
+    box-shadow: 8px 5px 5px black;
+    padding-top: 12px;
+}
+
+ p#eu{
+    background-color: blue;
+    width: 870px;
+    padding: 10px;
+    margin-left: -200px;
+    font-size: 20pt;
+    text-align: center;
+}
+ span#nova{
+    color: darkgoldenrod;
+   font-size: 30pt;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+span#oo{
+    font-size: 30pt;
+    color: darkgoldenrod;
+    font-family: Impact; 
+}
+p{
+    width: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify;
+    box-shadow: 2px 2px 2px 3px rgb(245, 243, 243);
+    padding: 5px;
+    margin-left: 50px;
+    color: aliceblue;
+}

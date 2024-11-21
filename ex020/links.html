@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links em html</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: rgb(13, 13, 15);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: rgb(119, 127, 235);
+        }
+        a:hover{
+            color: rgb(4, 4, 247);
+            text-decoration: underline;
+        }
+        a:active{
+            color: brown;
+        }
+        .especial{
+            background-color: rgb(207, 8, 101);
+            
+        }
+        .especial::before{
+            content: ' » ';
+        }
+        
+        /*
+        para encontrar simbolos acesse ete site: https://erikasarti.com/html/dingbats-simbolos-desenhos/
+        */
+        .especial::after{
+           content: ' ☍';
+            text-decoration: none;
+            color: rgba(42, 6, 247, 0.432);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li> <a href="https://www.instagram.com/ocarlos.brandao/" target="_blank">Stagram</a></li>
+
+        <li> <a href="https://www.youtube.com/@Deus-controle" target="_blank" class="especial">Canal do YouTube</a></li>
+
+        <li> <a href="https://brandaomagazine.online" target="_blank">Brandão Magazine</a></li>
+        <li> <a href="https://www.facebook.com/crb.brandao?locale=pt_BR" target="_blank">Facebook</a></li>
+    </ul>
+</body>
+</html>

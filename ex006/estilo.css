@@ -1,0 +1,26 @@
+h1{
+    color: blue;
+    text-align: center;
+    background-color: aliceblue;
+    box-shadow: 4px 4px 4px rgb(230, 10, 10); 
+}
+h2{
+    color: rgb(136, 136, 231);
+    text-align: center;
+}
+h3{
+    color: brown;
+    text-align: center;
+}
+h4{
+    color: blueviolet;
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: rgb(3, 137, 170);
+    font-size: 20pt;
+}
+body{
+    background-color: black;
+}

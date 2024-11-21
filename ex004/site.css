@@ -1,0 +1,14 @@
+h1{
+    color: blue;
+    text-shadow: 4px 5px 6px rgb(233, 8, 8);
+    text-align: center;
+    font-size: 50pt;
+    background-color: rgb(4, 48, 27);
+    box-shadow: 5px 4px 6px rgb(2, 2, 2);
+    height: 150px;
+    padding: 40px;
+    
+}
+body{
+    background-color: rgb(48, 46, 46);
+}
