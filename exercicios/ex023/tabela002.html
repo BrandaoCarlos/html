@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        td, th{
+            border: solid 1px;
+            padding: 10px;
+        }
+        thead, tfoot{
+            color: white;
+            background-color: dimgray;
+        }
+        td.num{
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>uso de tabelas grandes</h1>
+    <!--
+    Anatomia oara tabelas grandes
+    table
+        Thead
+            TR, TD, TH
+        Tbody
+            TR, TD, TH
+        Tfoot
+            TR, TD, TH
+    --> <TAble>
+        <THEad>
+            <TH>Estado</TH>
+            <th>População</th>
+
+        </THEad>
+        <TBody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943 </td>
+            </tr>
+        </TBody>
+        <TFoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td class="num"><strong>84.352.783</strong></td>
+            </tr>
+        </TFoot>
+    </TAble>
+
+</body>
+</html>
